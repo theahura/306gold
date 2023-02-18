@@ -1,0 +1,64 @@
+<title>306 Gold Street</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="spy.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="ETC_Logo_.png" type="image/x-icon" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.birds.min.js"></script>
+
+<style>
+  body {
+    width: 100%;
+    height: 100%;
+    font-family: Consolas, monaco, monospace;
+    padding: 0;
+    margin: 0;
+  }
+
+  ul,
+  li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .main {
+    width: 100%;
+    height: 100%;
+  }
+
+  .textholder {
+    top: 35%;
+    background: #ff7070;
+  }
+
+  .title {
+    font-size: 100px;
+    padding: 24px;
+  }
+
+  .subheader {
+    font-size: 27px;
+    padding: 34px;
+  }
+</style>
+
+<div class="main">
+  <div class="textholder">
+    <div class="title">306 Gold Street</div>
+    <div class="subheader">A fine dining experience.</div>
+  </div>
+</div>
+
+<script>
+  VANTA.BIRDS({
+    el: '.main',
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.0,
+    minWidth: 200.0,
+    scale: 1.0,
+    scaleMobile: 1.0,
+  });
+</script>
